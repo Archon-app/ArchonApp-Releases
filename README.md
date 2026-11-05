@@ -4,12 +4,16 @@ Download builds of **Archon**, the priority inbox overlay.
 
 **[⬇ Download the latest release](https://github.com/Archon-app/ArchonApp-Releases/releases/latest)**
 
-| Platform | File to download |
+| Your computer | File to download |
 | --- | --- |
-| macOS (Apple Silicon) | `archon-app_<version>_aarch64.dmg` |
-| macOS (Intel) | `archon-app_<version>_x64.dmg` |
-| Windows | `archon-app_<version>_x64-setup.exe` |
-| Linux | `archon-app_<version>_amd64.AppImage` — `chmod +x` it, then run it |
+| Mac with an Apple chip (M1, M2, M3, M4…) | `Archon-<version>-macOS-AppleSilicon.dmg` |
+| Mac with an Intel chip | `Archon-<version>-macOS-Intel.dmg` |
+| Windows 10/11 (64-bit) | `Archon-<version>-Windows-x64-Setup.exe` |
+| Linux (64-bit) | `Archon-<version>-Linux-x86_64.AppImage` — `chmod +x` it, then run it |
+
+Not sure which Mac you have? Apple menu → **About This Mac** → **Chip**.
+Releases up to 0.1.1 use the older names (`archon-app_<version>_aarch64.dmg` =
+Apple chip, `_x64` = Intel).
 
 Once installed, Archon checks for updates when it starts and offers them in
 the app. You can also check any time from **Settings → Updates**. Updates are
